@@ -1,0 +1,24 @@
+git config --global user.name "Lucas"
+git config --global user.email "*@gmail.com"
+git config --global core.editor vscode
+
+-------------------------------------------------------------------
+
+git init
+//Inicia o repositorio.
+
+git add *arquivo
+git add -A 
+//Adiciona o(s) arquivo(s) para o git monitorar mudanças.
+
+-------------------------------------------------------------------
+git commit -m "Mensagem curta e explicativa do que foi realizado"
+//
+
+
+-------------------------------------------------------------------
+git status
+//Mostra os status dos arquivos. (Arquivos novos, modificados, etc..)
+
+git log
+//Mostra os commits feitos e quem editou arquivos.
