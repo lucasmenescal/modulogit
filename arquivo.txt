@@ -18,7 +18,10 @@ git commit -m "Mensagem curta e explicativa do que foi realizado"
 git commit -am "Mensagem curta e explicativa do que foi realizado"
 //Adiciona arquivos novos(git add -A) e commita.
 
+git reset --hard *numero-do-commit-que-quer-voltar(pega com o comando 'git log')
+//Volta para um commit que voce deseja.
 -------------------------------------------------------------------
+
 git status
 //Mostra os status dos arquivos. (Arquivos novos, modificados, etc..)
 
