@@ -22,3 +22,6 @@ git status
 
 git log
 //Mostra os commits feitos e quem editou arquivos.
+
+git branch
+//Lista todos os branchs existentes no repositorio, e a oção com * é o atual.
