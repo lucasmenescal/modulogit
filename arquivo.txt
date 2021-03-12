@@ -13,8 +13,10 @@ git add -A
 
 -------------------------------------------------------------------
 git commit -m "Mensagem curta e explicativa do que foi realizado"
-//
+//Commitar
 
+git commit -am "Mensagem curta e explicativa do que foi realizado"
+//Adiciona arquivos novos(git add -A) e commita.
 
 -------------------------------------------------------------------
 git status
