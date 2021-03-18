@@ -1,0 +1,53 @@
+git config --global user.name "Lucas"
+git config --global user.email "*@gmail.com"
+git config --global core.editor vscode
+
+-------------------------------------------------------------------
+
+git init
+//Inicia o repositorio.
+
+git add *arquivo
+git add -A 
+//Adiciona o(s) arquivo(s) para o git monitorar mudanças.
+
+------------------------------------------------------------------------------------------
+git commit -m "Mensagem curta e explicativa do que foi realizado"
+//Commitar
+
+git commit -am "Mensagem curta e explicativa do que foi realizado"
+//Adiciona arquivos novos(git add -A) e commita.
+
+
+
+git reset --hard *numero-do-commit-que-quer-voltar(pega com o comando 'git log')
+//Volta para um commit que voce deseja.
+
+git reset --soft *numero-do-commit-que-quer-voltar(pega com o comando 'git log')
+//Desfaz um ou mais commits.
+------------------------------------------------------------------------------------------
+
+git status
+//Mostra os status dos arquivos. (Arquivos novos, modificados, etc..)
+
+git log
+//Mostra os commits feitos e quem editou arquivos.
+
+git branch
+//Lista todos os branchs existentes do git, e a opção com * é o atual.
+
+git checkout *branch
+//Troca de branch do git
+
+git diff
+//Mostra as edições feitas nos arquivos.
+
+git diff --name-only
+//Mostra somente o nome dos arquivos modificados.
+
+git diff *arquivo
+//Mostra o que foi modificado somente no *arquivo.
+
+git checkout HEAD --*arquivo
+//Desfaz as alterações feitas no *arquivo.
+------------------------------------------------------------------------------------------
