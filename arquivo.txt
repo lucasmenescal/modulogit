@@ -11,7 +11,7 @@ git add *arquivo
 git add -A 
 //Adiciona o(s) arquivo(s) para o git monitorar mudanças.
 
--------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 git commit -m "Mensagem curta e explicativa do que foi realizado"
 //Commitar
 
@@ -25,7 +25,7 @@ git reset --hard *numero-do-commit-que-quer-voltar(pega com o comando 'git log')
 
 git reset --soft *numero-do-commit-que-quer-voltar(pega com o comando 'git log')
 //Desfaz um ou mais commits.
--------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 git status
 //Mostra os status dos arquivos. (Arquivos novos, modificados, etc..)
@@ -34,4 +34,10 @@ git log
 //Mostra os commits feitos e quem editou arquivos.
 
 git branch
-//Lista todos os branchs existentes no repositorio, e a oção com * é o atual.
+//Lista todos os branchs existentes do git, e a opção com * é o atual.
+
+git checkout *branch
+//Troca de branch do git
+
+
+------------------------------------------------------------------------------------------
