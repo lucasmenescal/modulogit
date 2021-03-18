@@ -40,5 +40,14 @@ git checkout *branch
 //Troca de branch do git
 
 git diff
-/Mostra as edições feitas nos arquivos.
+//Mostra as edições feitas nos arquivos.
+
+git diff --name-only
+//Mostra somente o nome dos arquivos modificados.
+
+git diff *arquivo
+//Mostra o que foi modificado somente no *arquivo.
+
+git checkout HEAD --*arquivo
+//Desfaz as alterações feitas no *arquivo.
 ------------------------------------------------------------------------------------------
