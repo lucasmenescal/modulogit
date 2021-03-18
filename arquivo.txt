@@ -39,5 +39,6 @@ git branch
 git checkout *branch
 //Troca de branch do git
 
-
+git diff
+/Mostra as edições feitas nos arquivos.
 ------------------------------------------------------------------------------------------
