@@ -51,3 +51,11 @@ git diff *arquivo
 git checkout HEAD --*arquivo
 //Desfaz as alterações feitas no *arquivo.
 ------------------------------------------------------------------------------------------
+ssh-keygen -t ed25519 -C "your_email@example.com"
+// Criar key para linkar com github
+
+git push -u origin master
+//Primeiro push pro github(local > remoto)
+
+git push origin master
+//Enviando alterações para o git.(local > remoto)
