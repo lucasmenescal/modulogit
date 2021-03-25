@@ -70,5 +70,12 @@ git push origin master
 git push origin :*nomedobranch
 //deleta o branch, commits ou tags remoto
 
+git branch -D *nomedobranch
+//Deleta o branch local
+
 .gitignore
 //Criando esse arquivo pra ignorar algo do repositorio.
+------------------------------------------------------------------------------------------
+git pull origin master
+//Puxa as atualizações feitas do repositorio remoto para o local.
+//DEtalhe: Antes de fazer o git push, fazer um git pull.
