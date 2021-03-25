@@ -67,5 +67,8 @@ git push -u origin master
 git push origin master
 //Enviando alterações para o git.(local > remoto)
 
+git push origin :*nomedobranch
+//deleta o branch, commits ou tags remoto
+
 .gitignore
 //Criando esse arquivo pra ignorar algo do repositorio.
